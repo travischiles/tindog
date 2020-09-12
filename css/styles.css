@@ -1,0 +1,301 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.dark-mode {
+  color: #D0D0D0;
+}
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.colored-section-pink {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.colored-section-orange {
+  background-color: #ef8172;
+  color: white;
+}
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.title-image {
+  transform: rotate(30deg);
+  width: 60%;
+  right: 30%;
+  position: absolute;
+  float: none;
+}
+
+/* NAVIGATION BAR */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  margin: auto;
+  padding: 2rem 0 4.5rem;
+  margin-bottom: 0px;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.container-fluid {
+  padding: 7%, 15%;
+}
+
+/* BUTTONS */
+
+
+/* FEATURES */
+#features {
+  text-align: center;
+  padding: 10rem 5rem 5rem 5rem;
+  position: relative;
+}
+
+#features .container-fluid {
+  padding: 3% 5% 7%;
+  font-size: .9rem;
+}
+
+.features-heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.features-item {
+  padding: 0px 50px 0px 50px;
+}
+.features-icon {
+  font-size: 50px;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+.features-icon:hover {
+  font-size: 50px;
+  color: #ff4c68;
+  margin-bottom: 20px;
+}
+
+/* TESTIMONIALS  */
+
+#testimonials {
+  text-align: center;
+
+  padding: 8rem 10% 8rem 10%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#press {
+  text-align: center;
+  padding-bottom: 8%;
+}
+.press-image {
+  width: 60%;
+  margin: 20px 50px 20px 20px;
+  text-align: center;
+}
+
+
+
+/* PRICING */
+
+#pricing {
+text-align: center;
+padding: 8rem 10% 8rem 10%;
+}
+.pricing-heading {
+  font-family: serif;
+  margin-bottom: 4rem;
+}
+
+/* CALL TO ACTION */
+
+#cta {
+  padding: 10rem 5% 10rem 5%;
+  text-align: center;
+  font-family: serif;
+}
+.cta-heading {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+#footer {
+  text-align: center;
+  padding: 8rem 10% 8rem 10%;
+}
+
+
+/* DARK MODE */
+
+#mode-toggler .active {
+  background-color: white;
+}
+.darkmode-section-darker {
+  background-color: black;
+  color: white;
+}
+.darkmode-section-lighter {
+  background-color: #333333;
+  color: white;
+}
+.darkmode-card {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.darkmode-button-outline {
+  .border-color: white;
+  color: white;
+}
+
+/* RESPONSIVE SETTINGS */
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .page-title {
+    font-size: 3em;
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #title {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .press-img {
+    width: 70%;
+  }
+  .testimonials {
+    padding-bottom: 3rem;
+  }
+  #features {
+    text-align: center;
+    padding: 5rem 5rem 5rem 5rem;
+    position: relative;
+  }
+
+  #features .container-fluid {
+    padding: 3% 5% 7%;
+    font-size: .9rem;
+  }
+
+  .features-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  .features-item {
+    padding: 1.2rem 50px 1.2rem 50px;
+    font-size: 1.2rem;
+  }
+  .features-icon {
+    font-size: 50px;
+    color: #ef8172;
+    margin-bottom: 20px;
+  }
+  .features-icon:hover {
+    font-size: 50px;
+    color: #ff4c68;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .press-img {
+    width: 2rem;
+  }
+  .testimonials {
+    padding-bottom: 3rem;
+  }
+  .page-title {
+    font-size: 4em;
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #title {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  #features {
+    text-align: center;
+    padding: 5rem 5rem 5rem 5rem;
+    position: relative;
+  }
+
+  #features .container-fluid {
+    padding: 3% 5% 7%;
+    font-size: .9rem;
+  }
+
+  .features-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  .features-item {
+    padding: 1.2rem 50px 1.2rem 50px;
+    font-size: 1.2rem;
+  }
+  .features-icon {
+    font-size: 50px;
+    color: #ef8172;
+    margin-bottom: 20px;
+  }
+  .features-icon:hover {
+    font-size: 50px;
+    color: #ff4c68;
+    margin-bottom: 20px;
+  }
+  .pricing-heading {
+    font-family: serif;
+    margin-bottom: 5rem;
+  }
+}
